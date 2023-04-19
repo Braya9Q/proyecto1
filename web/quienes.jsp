@@ -7,5 +7,6 @@
     </head>
     <body>
         <h1>Quienes somos</h1>
+        <%@include file="menu.jsp" %>
     </body>
 </html>
