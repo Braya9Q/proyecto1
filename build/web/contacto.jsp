@@ -8,5 +8,17 @@
     <body>
         <h1>Contacto</h1>
         <%@include file="menu.jsp" %>
+        <form action="" method="">
+            <label>Nombre</label>
+            <input type="text" name="nombre">
+            <br><br>
+            <label>Referencia</label>
+            <input type="text" name="referencia">
+            <br><br>
+            <label>Mensaje</label>
+            <textarea name="mensaje"></textarea>
+            <br><br>
+            <input type="submit">       
+        </form>
     </body>
 </html>
